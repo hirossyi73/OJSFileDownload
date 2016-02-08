@@ -4,7 +4,7 @@
     "use strict";
 
     // 新しいページが読み込まれるたびに初期化関数を実行する必要があります
-    //Office.initialize = function (reason)
+    Office.initialize = function (reason)
     {
         $(document).ready(function () {
             app.initialize();
